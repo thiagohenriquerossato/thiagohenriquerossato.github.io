@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Papo de dev</title>
+  </head>
+  <body>
+    <div id="particles-js"></div>
+    <div class="container">
+      <img class="profile" src="https://instagram.fmvf2-1.fna.fbcdn.net/v/t51.2885-19/s150x150/141410830_834870657245924_1256635161351981247_n.jpg?_nc_ht=instagram.fmvf2-1.fna.fbcdn.net&_nc_ohc=8ylgkNXg2wAAX_A9reg&tp=1&oh=20f8f4b5f222743da39e2896fe74955e&oe=604FF1A1" />
+
+      <h2>Denise Medeiros</h2>
+      <p class="subtitle">Publicitária</p>
+      <p>Vamos criar juntos! ✌🏼</p>
+
+      <div class="info-container">
+        <!-- <div class="social-media-container">
+          <a href="https://github.com/isadorastan">
+            <i data-feather="instagram"></i>
+          </a>
+          <a href="https://www.youtube.com/channel/UCRhKK6VrISnIWPJjYxBPKnA"
+            ><i data-feather="youtube"></i
+          ></a>
+          <a href="https://t.me/papodedev1"><i data-feather="send"></i></a>
+        </div> -->
+
+        <div class="content">
+          <p>Coisa de gente criativa 👇🏼</p>
+          <div class="video-container">
+            <iframe
+              src="https://instagram.fmvf2-1.fna.fbcdn.net/v/t50.16885-16/75289145_2190659081040651_7424622614665586227_n.mp4?efg=eyJ2ZW5jb2RlX3RhZyI6InZ0c192b2RfdXJsZ2VuLjcyMC5pZ3R2LmRlZmF1bHQiLCJxZV9ncm91cHMiOiJbXCJpZ193ZWJfZGVsaXZlcnlfdnRzX290ZlwiXSJ9&_nc_ht=instagram.fmvf2-1.fna.fbcdn.net&_nc_cat=103&_nc_ohc=5WaCtY-K200AX9iUVCm&vs=17898514897399998_1806921446&_nc_vs=HBksFQAYJEdEblNmQVFMYzFtUVpNZ0hBRE5tZVVMdWpnbG5idlZCQUFBRhUAAsgBABUAGCRHTjR2bGdSS016QXdNSm9BQUJGaGVBbXkxSGdYYnZWQkFBQUYVAgLIAQAoABgAGwGIB3VzZV9vaWwBMRUAACb8yvW91abLPxUCKAJDMywXQF8ogxJul40YEmRhc2hfYmFzZWxpbmVfMV92MREAdewHAA%3D%3D&_nc_rid=95aba6b216&oe=60296342&oh=eed562c86eae7b9005295b010bfd1c24"
+              frameborder="0"
+              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <a
+            href="https://api.whatsapp.com/send?phone=558499004134"
+            class="link"
+          >
+            ⭐️ Me chama no WhatsApp
+          </a>
+          <a href="https://www.instagram.com/recinto.criativo/" class="link">
+          🎥 Conheça o Recinto Criativo
+          </a>
+          <a href="https://www.instagram.com/recinto.criativo/" class="link">
+            📔 Compre o meu livro
+            </a>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <script>
+    feather.replace();
+  </script>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script>
+    particlesJS("particles-js", {
+      particles: {
+        number: {
+          value: 1200,
+          density: { enable: true, value_area: 789.1476416322727 }
+        },
+        color: {
+          value: "#ffffff"
+        },
+        shape: {
+          type: "circle",
+          stroke: { width: 0, color: "#000000" },
+          polygon: { nb_sides: 5 },
+          image: { src: "img/github.svg", width: 100, height: 100 }
+        },
+        opacity: {
+          value: 0.48927153781200905,
+          random: false,
+          anim: { enable: true, speed: 0.2, opacity_min: 0, sync: false }
+        },
+        size: {
+          value: 2,
+          random: true,
+          anim: { enable: true, speed: 2, size_min: 0, sync: false }
+        },
+        line_linked: {
+          enable: false,
+          distance: 150,
+          color: "#ffffff",
+          opacity: 0.4,
+          width: 1
+        },
+        move: {
+          enable: true,
+          speed: 0.2,
+          direction: "none",
+          random: true,
+          straight: false,
+          out_mode: "out",
+          bounce: false,
+          attract: { enable: false, rotateX: 600, rotateY: 1200 }
+        }
+      },
+      interactivity: {
+        detect_on: "canvas",
+        events: {
+          onhover: {
+            enable: true,
+            mode: "bubble"
+          },
+          onclick: { enable: true, mode: "push" },
+          resize: true
+        },
+        modes: {
+          grab: { distance: 400, line_linked: { opacity: 1 } },
+          bubble: {
+            distance: 83.91608391608392,
+            size: 1,
+            duration: 3,
+            opacity: 1,
+            speed: 3
+          },
+          repulse: { distance: 200, duration: 0.4 },
+          push: { particles_nb: 4 },
+          remove: {
+            particles_nb: 2
+          }
+        }
+      },
+      retina_detect: true
+    });
+  </script>
+</html>
